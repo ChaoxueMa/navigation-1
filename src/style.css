@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style: none;
+}
+.site {
+  position: relative;
+  cursor: pointer;
+}
+.site .iconClose {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border-radius: 10px;
+  display: none;
+}
+.site:hover .iconClose {
+  display: block;
+}
+.iconClose:hover {
+  background: rgb(155, 205, 224);
+}
+body {
+  background-color: rgba(0, 0, 255, 0.5);
+  background-image: url(images/squre.jpg);
+  background-size: auto 100vh;
+}
+@media (min-width: 500px) {
+  body {
+    background-: ;
+    background-image: url(images/squre2.jpg);
+    background-size: 100vw auto;
+  }
+}
+.globalHeader {
+  margin-top: 60px;
+}
+@media (min-width: 500px) {
+  .globalHeader {
+    max-width: 553px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.searchList {
+  display: flex;
+  margin: 40px 0 0 20px;
+}
+.search {
+  width: 70px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 10px 10px 0 0;
+  font-weight: bold;
+  cursor: pointer;
+}
+.search:first-child {
+  background: #fff;
+  color: black;
+}
+.search:nth-child(2) {
+  background: red;
+  color: #fff;
+}
+
+.globalHeader > .find {
+  display: flex;
+  margin: 0px 20px;
+}
+.find > input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  padding: 0 10px;
+  font-size: 16px;
+}
+.find > button {
+  border: none;
+  width: 60px;
+  height: 40px;
+  border-radius: 0 40px 40px 0;
+  background: #fff;
+}
+.find > button:hover {
+  cursor: pointer;
+  background: #ddd;
+}
+.find > button > img {
+  width: 50%;
+  vertical-align: middle;
+}
+
+.globalMain .siteList {
+  display: flex;
+  margin: 20px 0px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+@media (min-width: 500px) {
+  .globalMain {
+    max-width: 684px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .globalMain .siteList {
+    justify-content: flex-start;
+    margin-left: -20px;
+  }
+  .site {
+    margin-right: 20px;
+  }
+}
+
+.siteList .site {
+  background: #eee;
+  margin-bottom: 20px;
+  width: 156px;
+  padding: 28px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.siteList .logo {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 64px;
+}
+.siteList .link {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+footer {
+  font-size: 8px;
+  text-align: center;
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+}
