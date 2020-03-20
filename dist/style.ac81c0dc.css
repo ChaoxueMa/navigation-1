@@ -137,18 +137,17 @@ body {
   /*网站列表样式,计算其作用宽度：156*2+20=332px*/
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  margin-right: -20px;
+  justify-content: space-between;
   margin-left: auto;
 }
 .siteList .site {
   /*siteList 的子元素*/
   background: #eee;
-  margin-right: 20px;
-  margin-bottom: 20px;
+
   width: 156px;
   padding-top: 28px;
   padding-bottom: 28px;
+  margin-bottom: 20px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -162,9 +161,13 @@ body {
   }
   .globalMain .siteList {
     margin-left: 0;
+    justify-content: flex-start;
+    margin-right: -20px;
+  }
+  .siteList .site {
+    margin-right: 20px;
   }
 }
-
 .siteList .logo {
   width: 64px;
   height: 64px;
@@ -187,4 +190,4 @@ footer {
 }
 
 
-/*# sourceMappingURL=style.1309d837.css.map */
+/*# sourceMappingURL=style.ac81c0dc.css.map */
