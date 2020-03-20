@@ -31,7 +31,6 @@ body {
 }
 @media (min-width: 500px) {
   body {
-    background-: ;
     background-image: url(squre2.50adef14.jpg);
     background-size: 100vw auto;
   }
@@ -78,6 +77,7 @@ body {
   border: none;
   padding: 0 10px;
   font-size: 16px;
+  border-radius: 0 0 0 0;
 }
 .find > button {
   border: none;
@@ -97,9 +97,10 @@ body {
 
 .globalMain .siteList {
   display: flex;
-  margin: 20px 0px;
+  margin: 20px 20px;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  border: 1px solid red;
 }
 @media (min-width: 500px) {
   .globalMain {
@@ -149,4 +150,4 @@ footer {
 }
 
 
-/*# sourceMappingURL=style.058187c8.css.map */
+/*# sourceMappingURL=style.278cd6ab.css.map */

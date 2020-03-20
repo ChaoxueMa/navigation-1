@@ -4,7 +4,7 @@ const hasMap = JSON.parse(x) || [
   { logo: "B", url: "https://www.bilibili.com" },
   { logo: "R", url: "http://www.ruanyifeng.com/blog/" },
   { logo: "E", url: "https://es6.ruanyifeng.com/" },
-  { logo: "J", url: "https://wangdoc.com/javascript/" },
+  { logo: "W", url: "https://wangdoc.com/javascript/" },
   { logo: "C", url: "https://caniuse.com/" },
   { logo: "C", url: "https://css-tricks.com/" },
   { logo: "P", url: "https://www.pexels.com/zh-cn/" },

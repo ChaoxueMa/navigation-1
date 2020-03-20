@@ -132,7 +132,7 @@ var hasMap = JSON.parse(x) || [{
   logo: "E",
   url: "https://es6.ruanyifeng.com/"
 }, {
-  logo: "J",
+  logo: "W",
   url: "https://wangdoc.com/javascript/"
 }, {
   logo: "C",
@@ -194,4 +194,4 @@ $(".addButton").on("click", function () {
   localStorage.setItem("x", string);
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.c9e65d48.js.map
+//# sourceMappingURL=main.1883d03c.js.map

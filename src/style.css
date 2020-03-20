@@ -31,7 +31,6 @@ body {
 }
 @media (min-width: 500px) {
   body {
-    background-: ;
     background-image: url(images/squre2.jpg);
     background-size: 100vw auto;
   }
@@ -78,6 +77,7 @@ body {
   border: none;
   padding: 0 10px;
   font-size: 16px;
+  border-radius: 0 0 0 0;
 }
 .find > button {
   border: none;
@@ -97,9 +97,10 @@ body {
 
 .globalMain .siteList {
   display: flex;
-  margin: 20px 0px;
+  margin: 20px 20px;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  border: 1px solid red;
 }
 @media (min-width: 500px) {
   .globalMain {
