@@ -33,13 +33,13 @@ ol {
 body {
   /*背景图片*/
   background-color: rgba(0, 0, 255, 0.5);
-  background-image: url(images/squre.jpg);
+  background-image: url(squre.ee97e54d.jpg);
   background-size: auto 100vh;
 }
 @media (min-width: 500px) {
   /*媒体查询（电脑）背景图片*/
   body {
-    background-image: url(images/squre2.jpg);
+    background-image: url(squre2.50adef14.jpg);
     background-size: 100vw auto;
   }
 }
@@ -185,3 +185,6 @@ footer {
   left: 10px;
   bottom: 10px;
 }
+
+
+/*# sourceMappingURL=style.1309d837.css.map */
